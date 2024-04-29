@@ -3,9 +3,6 @@ header:
     content: |
       SPDX-License-Identifier: Apache-2.0
 
-  paths:
-    - './rust/src/*'
-
   paths-ignore:
     - 'target'
     - '**/*.toml'
