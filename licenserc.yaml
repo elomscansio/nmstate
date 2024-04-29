@@ -1,0 +1,20 @@
+header:
+  license:
+    content: |
+      SPDX-License-Identifier: Apache-2.0
+
+  paths:
+    - './rust/src/*'
+
+  paths-ignore:
+    - 'target'
+    - '**/*.toml'
+    - '**/*.lock'
+    - '**/*.yml'
+    - '**/*.md'
+    - 'CHANGELOG'
+    - 'LICENSE-MIT'
+    - 'LICENSE'
+    - '.gitignore'
+
+  comment: on-failure
