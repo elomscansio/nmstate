@@ -14,5 +14,6 @@ jobs:
     timeout-minutes: 3
 
     steps:
-      - uses: apache/skywalking-eyes/header@main
+      - uses: actions/checkout@v3
       - name: Check License Header
+        uses: apache/skywalking-eyes/header@main
