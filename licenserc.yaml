@@ -2,7 +2,6 @@ header:
   license:
     content: |
       SPDX-License-Identifier: Apache-2.0
-
   paths-ignore:
     - 'target'
     - '**/*.toml'
@@ -11,7 +10,6 @@ header:
     - '**/*.md'
     - 'CHANGELOG'
     - 'LICENSE-MIT'
-    - 'LICENSE'
     - '.gitignore'
 
   comment: on-failure
