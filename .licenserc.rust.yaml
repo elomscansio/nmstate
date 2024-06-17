@@ -9,6 +9,9 @@ header:
   paths-ignore:
     - 'target'
     - '**/*.py'
+    - '**/*.mod'
+    - '**/*.sum'
+    - '**/*.in'
     - '**/*.toml'
     - '**/*.lock'
     - '**/*.yml'
