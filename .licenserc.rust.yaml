@@ -7,6 +7,7 @@ header:
     - 'rust/src/*'
 
   paths-ignore:
+    - '**/*python/*'
     - 'target'
     - '**/*.toml'
     - '**/*.lock'
@@ -17,6 +18,5 @@ header:
     - 'LICENSE'
     - '.gitignore'
     - '**/*.txt'
-    - 'rust/src/python/*'
 
   comment: on-failure
