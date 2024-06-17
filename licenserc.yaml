@@ -1,7 +1,7 @@
 header:
   license:
     content: |
-      SPDX-License-Identifier: Apache-2.0
+      SPDX-License-Identifier: MIT
   paths-ignore:
     - 'target'
     - '**/*.toml'
