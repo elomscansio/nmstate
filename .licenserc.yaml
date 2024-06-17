@@ -1,9 +1,9 @@
 ---
 header:
-  - path: rust/src
+  - path: "rust/src/*"
     license:
       spdx-id: Apache-2.0
-      
-  - path: rust/src/python
+
+  - path: "rust/src/python/*"
     license:
       spdx-id: LGPL-2.1-or-later
