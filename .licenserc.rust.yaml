@@ -7,8 +7,8 @@ header:
     - 'rust/src/*'
 
   paths-ignore:
-    - '**/*python/*'
     - 'target'
+    - '**/*.py'
     - '**/*.toml'
     - '**/*.lock'
     - '**/*.yml'
