@@ -3,27 +3,7 @@ header:
   - path: rust/src
     license:
       spdx-id: Apache-2.0
-    paths-ignore:
-      - target
-      - "**/*.toml"
-      - "**/*.lock"
-      - "**/*.yml"
-      - "**/*.md"
-      - CHANGELOG
-      - LICENSE-MIT
-      - .gitignore
-    comment: on-failure
-    
+      
   - path: rust/src/python
     license:
       spdx-id: LGPL-2.1-or-later
-    paths-ignore:
-      - target
-      - "**/*.toml"
-      - "**/*.lock"
-      - "**/*.yml"
-      - "**/*.md"
-      - CHANGELOG
-      - LICENSE-MIT
-      - .gitignore
-    comment: on-failure
