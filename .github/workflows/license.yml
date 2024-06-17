@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - update/license_header_chech
+  workflow_dispatch:
 
 jobs:
   check-license:
